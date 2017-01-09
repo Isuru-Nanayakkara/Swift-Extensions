@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31993231E23B2C700FD43AB /* UIPasteboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */; };
+		D31993271E23B6B500FD43AB /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */; };
+		D31993291E23B70600FD43AB /* UIToolbar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */; };
+		D319932B1E23B79500FD43AB /* UIWebView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D319932A1E23B79500FD43AB /* UIWebView+Extensions.swift */; };
 		D33D8E7E1E01A0F300C62400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D8E7D1E01A0F300C62400 /* AppDelegate.swift */; };
 		D33D8E831E01A0F300C62400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33D8E811E01A0F300C62400 /* Main.storyboard */; };
 		D33D8E851E01A0F300C62400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33D8E841E01A0F300C62400 /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPasteboard+Extensions.swift"; sourceTree = "<group>"; };
+		D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
+		D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Extensions.swift"; sourceTree = "<group>"; };
+		D319932A1E23B79500FD43AB /* UIWebView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView+Extensions.swift"; sourceTree = "<group>"; };
 		D33D8E7A1E01A0F300C62400 /* Swift+Extensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift+Extensions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33D8E7D1E01A0F300C62400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33D8E821E01A0F300C62400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +83,10 @@
 				D33D8E971E01B48D00C62400 /* UIDevice+Extensions.swift */,
 				D33D8E991E01B6A900C62400 /* String+Extensions.swift */,
 				D33D8E9B1E01BE7F00C62400 /* Dictionary+Extensions.swift */,
+				D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */,
+				D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */,
+				D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */,
+				D319932A1E23B79500FD43AB /* UIWebView+Extensions.swift */,
 			);
 			path = "Swift+Extensions";
 			sourceTree = "<group>";
@@ -157,7 +169,11 @@
 				D33D8E901E01A2FB00C62400 /* Bundle+Extensions.swift in Sources */,
 				D33D8E9C1E01BE7F00C62400 /* Dictionary+Extensions.swift in Sources */,
 				D33D8E981E01B48D00C62400 /* UIDevice+Extensions.swift in Sources */,
+				D319932B1E23B79500FD43AB /* UIWebView+Extensions.swift in Sources */,
+				D31993291E23B70600FD43AB /* UIToolbar+Extensions.swift in Sources */,
+				D31993271E23B6B500FD43AB /* UINavigationBar+Extensions.swift in Sources */,
 				D33D8E9A1E01B6A900C62400 /* String+Extensions.swift in Sources */,
+				D31993231E23B2C700FD43AB /* UIPasteboard+Extensions.swift in Sources */,
 				D33D8E921E01A44500C62400 /* UIApplication+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

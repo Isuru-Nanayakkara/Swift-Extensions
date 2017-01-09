@@ -6,6 +6,7 @@
 //  Copyright © 2016 BitInvent. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 extension UIApplication {
@@ -18,6 +19,12 @@ extension UIApplication {
     /// Most top view controller.
     var topViewController: UIViewController? {
         return keyWindow?.rootViewController
+    }
+    
+    func toggleNetworkActivityIndicator(show: Bool) {
+        OperationQueue.main.addOperation {
+            UIApplication.shared.isNetworkActivityIndicatorVisible = show
+        }
     }
     
 }
