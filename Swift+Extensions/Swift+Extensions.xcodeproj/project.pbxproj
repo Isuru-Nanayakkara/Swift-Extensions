@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D302453F1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D302453E1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift */; };
+		D3141C9E1E2E38FD002ACD82 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3141C9D1E2E38FC002ACD82 /* Date+Extensions.swift */; };
 		D31993231E23B2C700FD43AB /* UIPasteboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */; };
 		D31993271E23B6B500FD43AB /* UINavigationBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */; };
 		D31993291E23B70600FD43AB /* UIToolbar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D302453E1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Extensions.swift"; sourceTree = "<group>"; };
+		D3141C9D1E2E38FC002ACD82 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPasteboard+Extensions.swift"; sourceTree = "<group>"; };
 		D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extensions.swift"; sourceTree = "<group>"; };
 		D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIToolbar+Extensions.swift"; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */,
 				D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */,
 				D319932A1E23B79500FD43AB /* UIWebView+Extensions.swift */,
+				D3141C9D1E2E38FC002ACD82 /* Date+Extensions.swift */,
+				D302453E1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift */,
 			);
 			path = "Swift+Extensions";
 			sourceTree = "<group>";
@@ -164,11 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D302453F1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift in Sources */,
 				D33D8E7E1E01A0F300C62400 /* AppDelegate.swift in Sources */,
 				D33D8E961E01B41B00C62400 /* UIScreen+Extensions.swift in Sources */,
 				D33D8E901E01A2FB00C62400 /* Bundle+Extensions.swift in Sources */,
 				D33D8E9C1E01BE7F00C62400 /* Dictionary+Extensions.swift in Sources */,
 				D33D8E981E01B48D00C62400 /* UIDevice+Extensions.swift in Sources */,
+				D3141C9E1E2E38FD002ACD82 /* Date+Extensions.swift in Sources */,
 				D319932B1E23B79500FD43AB /* UIWebView+Extensions.swift in Sources */,
 				D31993291E23B70600FD43AB /* UIToolbar+Extensions.swift in Sources */,
 				D31993271E23B6B500FD43AB /* UINavigationBar+Extensions.swift in Sources */,
