@@ -1,11 +1,3 @@
-//
-//  UIScreen+Extensions.swift
-//  Swift+Extensions
-//
-//  Created by Isuru Nanayakkara on 12/14/16.
-//  Copyright © 2016 BitInvent. All rights reserved.
-//
-
 import UIKit
 
 extension UIScreen {
@@ -27,6 +19,5 @@ extension UIScreen {
     var isRetinaHD: Bool {
         return UIScreen.main.responds(to: #selector(UIScreen.displayLink(withTarget:selector:))) && UIScreen.main.scale == 3.0
     }
-    
     
 }

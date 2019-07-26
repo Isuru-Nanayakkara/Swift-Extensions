@@ -23,6 +23,15 @@
 		D33D8E981E01B48D00C62400 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D8E971E01B48D00C62400 /* UIDevice+Extensions.swift */; };
 		D33D8E9A1E01B6A900C62400 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D8E991E01B6A900C62400 /* String+Extensions.swift */; };
 		D33D8E9C1E01BE7F00C62400 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D8E9B1E01BE7F00C62400 /* Dictionary+Extensions.swift */; };
+		D3D3F16F22EB6F3700418046 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F16E22EB6F3700418046 /* UIColor+Extensions.swift */; };
+		D3D3F17122EB709200418046 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17022EB709200418046 /* UIView+Extensions.swift */; };
+		D3D3F17322EB712400418046 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17222EB712400418046 /* UITableView+Extensions.swift */; };
+		D3D3F17522EB716F00418046 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17422EB716F00418046 /* UIButton+Extensions.swift */; };
+		D3D3F17722EB719500418046 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17622EB719500418046 /* Codable+Extensions.swift */; };
+		D3D3F17922EB71CB00418046 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17822EB71CB00418046 /* UserDefaults+Extensions.swift */; };
+		D3D3F17B22EB71EA00418046 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17A22EB71EA00418046 /* UIViewController+Extensions.swift */; };
+		D3D3F17D22EB726400418046 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17C22EB726400418046 /* Array+Extensions.swift */; };
+		D3D3F17F22EB728C00418046 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3F17E22EB728C00418046 /* UISearchBar+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +53,15 @@
 		D33D8E971E01B48D00C62400 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
 		D33D8E991E01B6A900C62400 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		D33D8E9B1E01BE7F00C62400 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F16E22EB6F3700418046 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17022EB709200418046 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17222EB712400418046 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17422EB716F00418046 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17622EB719500418046 /* Codable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17822EB71CB00418046 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17A22EB71EA00418046 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17C22EB726400418046 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		D3D3F17E22EB728C00418046 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,12 @@
 				D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */,
 				D319932A1E23B79500FD43AB /* UIWebView+Extensions.swift */,
 				D302453E1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift */,
+				D3D3F16E22EB6F3700418046 /* UIColor+Extensions.swift */,
+				D3D3F17022EB709200418046 /* UIView+Extensions.swift */,
+				D3D3F17222EB712400418046 /* UITableView+Extensions.swift */,
+				D3D3F17422EB716F00418046 /* UIButton+Extensions.swift */,
+				D3D3F17A22EB71EA00418046 /* UIViewController+Extensions.swift */,
+				D3D3F17E22EB728C00418046 /* UISearchBar+Extensions.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -107,6 +131,7 @@
 				D33D8E951E01B41B00C62400 /* UIScreen+Extensions.swift */,
 				D33D8E971E01B48D00C62400 /* UIDevice+Extensions.swift */,
 				D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */,
+				D3D3F17822EB71CB00418046 /* UserDefaults+Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -116,7 +141,9 @@
 			children = (
 				D33D8E991E01B6A900C62400 /* String+Extensions.swift */,
 				D33D8E9B1E01BE7F00C62400 /* Dictionary+Extensions.swift */,
+				D3D3F17C22EB726400418046 /* Array+Extensions.swift */,
 				D3141C9D1E2E38FC002ACD82 /* Date+Extensions.swift */,
+				D3D3F17622EB719500418046 /* Codable+Extensions.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -148,7 +175,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = BitInvent;
 				TargetAttributes = {
 					D33D8E791E01A0F300C62400 = {
@@ -161,7 +188,7 @@
 			};
 			buildConfigurationList = D33D8E751E01A0F300C62400 /* Build configuration list for PBXProject "Swift+Extensions" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -198,14 +225,23 @@
 				D302453F1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift in Sources */,
 				D33D8E7E1E01A0F300C62400 /* AppDelegate.swift in Sources */,
 				D33D8E961E01B41B00C62400 /* UIScreen+Extensions.swift in Sources */,
+				D3D3F17922EB71CB00418046 /* UserDefaults+Extensions.swift in Sources */,
+				D3D3F17322EB712400418046 /* UITableView+Extensions.swift in Sources */,
 				D33D8E901E01A2FB00C62400 /* Bundle+Extensions.swift in Sources */,
 				D33D8E9C1E01BE7F00C62400 /* Dictionary+Extensions.swift in Sources */,
 				D33D8E981E01B48D00C62400 /* UIDevice+Extensions.swift in Sources */,
 				D3141C9E1E2E38FD002ACD82 /* Date+Extensions.swift in Sources */,
 				D319932B1E23B79500FD43AB /* UIWebView+Extensions.swift in Sources */,
+				D3D3F17D22EB726400418046 /* Array+Extensions.swift in Sources */,
 				D31993291E23B70600FD43AB /* UIToolbar+Extensions.swift in Sources */,
 				D31993271E23B6B500FD43AB /* UINavigationBar+Extensions.swift in Sources */,
+				D3D3F17F22EB728C00418046 /* UISearchBar+Extensions.swift in Sources */,
+				D3D3F17B22EB71EA00418046 /* UIViewController+Extensions.swift in Sources */,
+				D3D3F17522EB716F00418046 /* UIButton+Extensions.swift in Sources */,
+				D3D3F17722EB719500418046 /* Codable+Extensions.swift in Sources */,
 				D33D8E9A1E01B6A900C62400 /* String+Extensions.swift in Sources */,
+				D3D3F16F22EB6F3700418046 /* UIColor+Extensions.swift in Sources */,
+				D3D3F17122EB709200418046 /* UIView+Extensions.swift in Sources */,
 				D31993231E23B2C700FD43AB /* UIPasteboard+Extensions.swift in Sources */,
 				D33D8E921E01A44500C62400 /* UIApplication+Extensions.swift in Sources */,
 			);
@@ -237,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -295,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -353,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitinvent.Swift-Extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -368,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitinvent.Swift-Extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

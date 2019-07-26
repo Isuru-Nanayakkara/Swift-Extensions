@@ -1,11 +1,3 @@
-//
-//  Date+Extensions.swift
-//  Swift+Extensions
-//
-//  Created by Isuru Nanayakkara on 1/17/17.
-//  Copyright © 2017 BitInvent. All rights reserved.
-//
-
 import Foundation
 
 extension Date {

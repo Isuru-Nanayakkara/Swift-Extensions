@@ -1,15 +1,7 @@
-//
-//  UIToolbar+Extensions.swift
-//  Swift+Extensions
-//
-//  Created by Isuru Nanayakkara on 1/9/17.
-//  Copyright © 2017 BitInvent. All rights reserved.
-//
-
 import UIKit
 
 extension UIToolbar {
-    
+    /// Turn the tool bar transparent (The bar button items stay visible).
     func setTransparent(_ transparent: Bool, translucent: Bool = true) {
         if transparent {
             setBackgroundImage(UIImage(), forToolbarPosition: .any, barMetrics: .default)
@@ -21,5 +13,4 @@ extension UIToolbar {
         
         isTranslucent = translucent
     }
-    
 }
