@@ -6,7 +6,6 @@
 //  Copyright © 2016 BitInvent. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 extension UIApplication {

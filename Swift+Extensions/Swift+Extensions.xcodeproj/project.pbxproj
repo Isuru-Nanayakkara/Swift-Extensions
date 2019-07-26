@@ -76,25 +76,49 @@
 		D33D8E7C1E01A0F300C62400 /* Swift+Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D3C864E022EB6D44000B8810 /* Foundation */,
+				D3C864DE22EB6CC6000B8810 /* UIKit */,
+				D3C864DF22EB6CEB000B8810 /* Utils */,
 				D33D8E7D1E01A0F300C62400 /* AppDelegate.swift */,
 				D33D8E811E01A0F300C62400 /* Main.storyboard */,
-				D33D8E841E01A0F300C62400 /* Assets.xcassets */,
 				D33D8E861E01A0F300C62400 /* LaunchScreen.storyboard */,
+				D33D8E841E01A0F300C62400 /* Assets.xcassets */,
 				D33D8E891E01A0F300C62400 /* Info.plist */,
-				D33D8E8F1E01A2FB00C62400 /* Bundle+Extensions.swift */,
+			);
+			path = "Swift+Extensions";
+			sourceTree = "<group>";
+		};
+		D3C864DE22EB6CC6000B8810 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
 				D33D8E911E01A44500C62400 /* UIApplication+Extensions.swift */,
-				D33D8E951E01B41B00C62400 /* UIScreen+Extensions.swift */,
-				D33D8E971E01B48D00C62400 /* UIDevice+Extensions.swift */,
-				D33D8E991E01B6A900C62400 /* String+Extensions.swift */,
-				D33D8E9B1E01BE7F00C62400 /* Dictionary+Extensions.swift */,
-				D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */,
 				D31993261E23B6B500FD43AB /* UINavigationBar+Extensions.swift */,
 				D31993281E23B70600FD43AB /* UIToolbar+Extensions.swift */,
 				D319932A1E23B79500FD43AB /* UIWebView+Extensions.swift */,
-				D3141C9D1E2E38FC002ACD82 /* Date+Extensions.swift */,
 				D302453E1E2FCD2E007E47FF /* UINavigationItem+Extensions.swift */,
 			);
-			path = "Swift+Extensions";
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		D3C864DF22EB6CEB000B8810 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D33D8E8F1E01A2FB00C62400 /* Bundle+Extensions.swift */,
+				D33D8E951E01B41B00C62400 /* UIScreen+Extensions.swift */,
+				D33D8E971E01B48D00C62400 /* UIDevice+Extensions.swift */,
+				D31993221E23B2C700FD43AB /* UIPasteboard+Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D3C864E022EB6D44000B8810 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D33D8E991E01B6A900C62400 /* String+Extensions.swift */,
+				D33D8E9B1E01BE7F00C62400 /* Dictionary+Extensions.swift */,
+				D3141C9D1E2E38FC002ACD82 /* Date+Extensions.swift */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,12 +148,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = BitInvent;
 				TargetAttributes = {
 					D33D8E791E01A0F300C62400 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4JASANY5YC;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -217,15 +242,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -266,15 +300,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,7 +352,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitinvent.Swift-Extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -323,7 +367,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.bitinvent.Swift-Extensions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

@@ -6,7 +6,6 @@
 //  Copyright © 2016 BitInvent. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 extension String {
@@ -27,7 +26,7 @@ extension String {
     
     /// First character of string.
     var firstCharacter: String? {
-        return Array(characters).map({String($0)}).first
+        return map({String($0)}).first
     }
     
     /// Check if string contains one or more letters.
@@ -60,7 +59,7 @@ extension String {
     
     /// Reversed string.
     var reversed: String {
-        return String(characters.reversed())
+        return String(reversed())
     }
     
     /// String with no spaces or new lines in beginning and end.
@@ -85,22 +84,22 @@ extension String {
     
     /// Bold string.
     var bold: NSAttributedString {
-        return NSMutableAttributedString(string: self, attributes: [NSFontAttributeName: UIFont.boldSystemFont(ofSize: UIFont.systemFontSize)])
+        return NSMutableAttributedString(string: self, attributes: convertToOptionalNSAttributedStringKeyDictionary([convertFromNSAttributedStringKey(NSAttributedString.Key.font): UIFont.boldSystemFont(ofSize: UIFont.systemFontSize)]))
     }
     
     /// Underlined string.
     var underline: NSAttributedString {
-        return NSAttributedString(string: self, attributes: [NSUnderlineStyleAttributeName: NSUnderlineStyle.styleSingle.rawValue])
+        return NSAttributedString(string: self, attributes: convertToOptionalNSAttributedStringKeyDictionary([convertFromNSAttributedStringKey(NSAttributedString.Key.underlineStyle): NSUnderlineStyle.single.rawValue]))
     }
     
     /// Italic string.
     var italic: NSAttributedString {
-        return NSMutableAttributedString(string: self, attributes: [NSFontAttributeName: UIFont.italicSystemFont(ofSize: UIFont.systemFontSize)])
+        return NSMutableAttributedString(string: self, attributes: convertToOptionalNSAttributedStringKeyDictionary([convertFromNSAttributedStringKey(NSAttributedString.Key.font): UIFont.italicSystemFont(ofSize: UIFont.systemFontSize)]))
     }
     
     /// Strikethrough string.
     var strikethrough: NSAttributedString {
-        return NSAttributedString(string: self, attributes: [NSStrikethroughStyleAttributeName: NSNumber(value: NSUnderlineStyle.styleSingle.rawValue as Int)])
+        return NSAttributedString(string: self, attributes: convertToOptionalNSAttributedStringKeyDictionary([convertFromNSAttributedStringKey(NSAttributedString.Key.strikethroughStyle): NSNumber(value: NSUnderlineStyle.single.rawValue as Int)]))
     }
     
     var lastPathComponent: String {
@@ -131,4 +130,15 @@ extension String {
         return (self as NSString).appendingPathExtension(str)
     }
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToOptionalNSAttributedStringKeyDictionary(_ input: [String: Any]?) -> [NSAttributedString.Key: Any]? {
+	guard let input = input else { return nil }
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (NSAttributedString.Key(rawValue: key), value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+	return input.rawValue
 }
